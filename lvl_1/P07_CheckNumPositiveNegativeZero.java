@@ -1,7 +1,9 @@
 package lvl_1;
-import java.util.Scanner;
-public class NumCheck {
 
+import java.util.Scanner;
+
+public class P07_CheckNumPositiveNegativeZero {
+	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);

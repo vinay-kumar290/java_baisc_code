@@ -2,8 +2,8 @@ package lvl_1;
 
 import java.util.Scanner;
 
-public class CharASCII {
-
+public class P04_CharToASCII {
+	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);

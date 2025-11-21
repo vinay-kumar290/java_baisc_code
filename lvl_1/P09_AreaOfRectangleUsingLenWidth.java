@@ -1,7 +1,8 @@
 package lvl_1;
+
 import java.util.Scanner;
 
-public class AreaOfRectangle {
+public class P09_AreaOfRectangleUsingLenWidth {
 	
 	public static void main(String[] args) {
 		

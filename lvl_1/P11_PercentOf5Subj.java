@@ -1,8 +1,9 @@
 package lvl_1;
+
 import java.util.Scanner;
 
-public class PercentOfSub {
-
+public class P11_PercentOf5Subj {
+	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);

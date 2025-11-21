@@ -1,8 +1,9 @@
 package lvl_1;
+
 import java.util.Scanner;
 
-public class SquareOfNum {
-
+public class P12_SquareOfNum {
+	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);

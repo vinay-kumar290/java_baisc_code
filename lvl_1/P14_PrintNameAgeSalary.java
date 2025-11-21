@@ -1,8 +1,9 @@
 package lvl_1;
+
 import java.util.Scanner;
 
-public class FormatedOut {
-
+public class P14_PrintNameAgeSalary {
+	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);

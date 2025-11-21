@@ -1,8 +1,9 @@
 package lvl_1;
+
 import java.util.Scanner;
 
-public class TimeGreeting {
-
+public class P18_TimeGreeting {
+	
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
@@ -32,7 +33,6 @@ public class TimeGreeting {
 			}
 			break;
 			
-			
 		case 'p':
 			if((hh == 12) || ((hh >= 1) && hh <= 4)) {
 				if ((mm >= 0) && (mm < 60)) {
@@ -55,5 +55,4 @@ public class TimeGreeting {
 		}
 		input.close();
 	}
-	
 }

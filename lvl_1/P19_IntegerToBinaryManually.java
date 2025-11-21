@@ -1,8 +1,9 @@
 package lvl_1;
+
 import java.util.Scanner;
 
-public class IntegerToBinary {
-
+public class P19_IntegerToBinaryManually {
+	
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
