@@ -1,0 +1,19 @@
+package lvl_1;
+import java.util.Scanner;
+
+public class GreaterNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter first number: ");
+		int num1 = input.nextInt();
+		
+		System.out.print("Enter second number: ");
+		int num2 = input.nextInt();
+		
+		System.out.println("The greatest number is: " + Math.max(num1, num2));
+		input.close();
+	}
+}
