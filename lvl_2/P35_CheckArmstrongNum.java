@@ -12,20 +12,35 @@ public class P35_CheckArmstrongNum {
 		
 		int num = input.nextInt();
 		
+		int original = num;
+		
 		int digit = 0;
 		
-		while (num > 0) {
-			
-			int count = num / 10;
-			digit++;
-		}
-		int temp = digit;
 		
+		int temp = num;
 		while (temp > 0) {
 			
+			digit++;
+			temp = temp / 10;
+		}
+		
+		int temp2 = num;
+		int sum = 0;
+		
+		while (temp2 > 0) {
+			
+			int rem = temp2 % 10;
+			sum += Math.pow(rem, digit);
+			temp2 = temp2 / 10;
+		}
+		if (sum == original) {
+			
+			System.out.println("Number " + original + " is armstrong:");
 			
 		}
-
+		else {
+			System.out.println("Number " + original + " is not armstrong:");
+		}
+		input.close();
 	}
-
 }
