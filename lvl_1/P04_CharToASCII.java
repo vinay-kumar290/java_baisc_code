@@ -12,7 +12,7 @@ public class P04_CharToASCII {
 		char ch = input.next().charAt(0);
 		int ascii = (ch);
 		
-		System.out.println("The ASCII value of '" + ch + "' is: " + ascii);
+		System.out.println("ASCII value of '" + ch + "' is: " + ascii);
 		input.close();
 	}
 }
